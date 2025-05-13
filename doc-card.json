@@ -54,7 +54,7 @@
     }
   ],
   "paths": {
-    "/v1/MULTI_APPLICATION_CARD/customer/{customerIdd}": {
+    "/v1/MULTI_APPLICATION_CARD/customer/{customerId}": {
       "post": {
         "tags": [
           "Create card"
@@ -64,7 +64,7 @@
         "operationId": "createMultiApplicationCardV1",
         "parameters": [
           {
-            "name": "customerIdd",
+            "name": "customerId",
             "in": "path",
             "description": "The customer id of which customer you want to create the card on",
             "required": true,
